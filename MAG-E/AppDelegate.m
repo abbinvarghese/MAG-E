@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+@import Firebase;
+
+NSString *const articleForReview = @"articleForReview";
 
 @interface AppDelegate ()
 
@@ -16,8 +19,43 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [FIRApp configure];
+    [FIRDatabase database].persistenceEnabled = YES;
+    
+    [[FIRAuth auth] addAuthStateDidChangeListener:^(FIRAuth *_Nonnull auth,
+                                                    FIRUser *_Nullable user) {
+        if (user == nil) {
+            [[FIRAuth auth]
+             signInAnonymouslyWithCompletion:^(FIRUser *_Nullable user, NSError *_Nullable error) {
+                 if (error) {
+                     NSLog(@"User SignIn Failed");
+                 }
+             }];
+        }
+    }];
+
     return YES;
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application {
+    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        NSUserDefaults *mySharedDefaults = [[NSUserDefaults alloc] initWithSuiteName: @"group.ThePaadamCompany.Squashmag"];
+        NSMutableArray *array = [NSMutableArray arrayWithArray:[mySharedDefaults objectForKey:articleForReview]];
+        if (array.count>0) {
+            for (NSString *string in array) {
+                FIRDatabaseReference *ref = [[FIRDatabase database] reference];
+                NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:
+                                      string,@"articleUrl",
+                                      @"",@"articleauthor",
+                                      nil];
+                [[[ref child:@"reviewArticles"] childByAutoId] setValue:dict];
+                
+            }
+            [mySharedDefaults removeObjectForKey:articleForReview];
+        }
+    });
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -32,10 +70,6 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
-}
-
-- (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {

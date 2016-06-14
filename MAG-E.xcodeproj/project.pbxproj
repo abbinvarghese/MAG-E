@@ -7,27 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		885D88E681807EC16C900C84 /* libPods-MAG-E.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF0FF971E2A7A9C65E9AA571 /* libPods-MAG-E.a */; };
 		ED3FFF831D0938780055B947 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3FFF821D0938780055B947 /* main.m */; };
 		ED3FFF861D0938780055B947 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3FFF851D0938780055B947 /* AppDelegate.m */; };
-		ED3FFF891D0938780055B947 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3FFF881D0938780055B947 /* ViewController.m */; };
 		ED3FFF8C1D0938780055B947 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3FFF8A1D0938780055B947 /* Main.storyboard */; };
 		ED3FFF8F1D0938780055B947 /* MAG_E.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED3FFF8D1D0938780055B947 /* MAG_E.xcdatamodeld */; };
 		ED3FFF911D0938780055B947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3FFF901D0938780055B947 /* Assets.xcassets */; };
 		ED3FFF941D0938780055B947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3FFF921D0938780055B947 /* LaunchScreen.storyboard */; };
+		ED3FFF9D1D0939610055B947 /* METabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3FFF9C1D0939610055B947 /* METabViewController.m */; };
+		ED3FFFA01D093A3C0055B947 /* MEListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3FFF9F1D093A3C0055B947 /* MEListViewController.m */; };
+		ED3FFFA31D093CC60055B947 /* MEListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3FFFA21D093CC60055B947 /* MEListCollectionViewCell.m */; };
+		ED3FFFA81D093DC00055B947 /* MERoundedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3FFFA71D093DC00055B947 /* MERoundedImageView.m */; };
+		ED3FFFAC1D093E390055B947 /* MERoundedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3FFFAB1D093E390055B947 /* MERoundedLabel.m */; };
+		ED3FFFAE1D0954610055B947 /* Questrial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED3FFFAD1D0954610055B947 /* Questrial-Regular.ttf */; };
+		ED3FFFB71D097A970055B947 /* MEApplicationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3FFFB61D097A970055B947 /* MEApplicationHelper.m */; };
+		ED3FFFBC1D097BFD0055B947 /* Articles+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3FFFB91D097BFD0055B947 /* Articles+CoreDataProperties.m */; };
+		ED3FFFBD1D097BFD0055B947 /* Articles.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3FFFBB1D097BFD0055B947 /* Articles.m */; };
+		ED3FFFC11D097E180055B947 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3FFFC01D097E180055B947 /* GoogleService-Info.plist */; };
+		ED60D3011D0AA5E100D1E57D /* MEAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED60D3001D0AA5E100D1E57D /* MEAddViewController.m */; };
+		ED7C89B81D0E8F360067D8FF /* MEMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7C89B71D0E8F360067D8FF /* MEMenuViewController.m */; };
+		ED7C89BC1D0EEF530067D8FF /* MEAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7C89BB1D0EEF530067D8FF /* MEAboutViewController.m */; };
+		ED7C89C01D0EF0040067D8FF /* MEFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7C89BF1D0EF0040067D8FF /* MEFeedbackViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BC170F6A43B4238101EA7A1 /* Pods-MAG-E.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAG-E.release.xcconfig"; path = "Pods/Target Support Files/Pods-MAG-E/Pods-MAG-E.release.xcconfig"; sourceTree = "<group>"; };
+		AF0FF971E2A7A9C65E9AA571 /* libPods-MAG-E.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MAG-E.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C6C7AB72A3759F5EA68FD3 /* Pods-MAG-E.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAG-E.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MAG-E/Pods-MAG-E.debug.xcconfig"; sourceTree = "<group>"; };
 		ED3FFF7E1D0938780055B947 /* MAG-E.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAG-E.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED3FFF821D0938780055B947 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED3FFF841D0938780055B947 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ED3FFF851D0938780055B947 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ED3FFF871D0938780055B947 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ED3FFF881D0938780055B947 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ED3FFF8B1D0938780055B947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED3FFF8E1D0938780055B947 /* MAG_E.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MAG_E.xcdatamodel; sourceTree = "<group>"; };
 		ED3FFF901D0938780055B947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED3FFF931D0938780055B947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED3FFF951D0938780055B947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3FFF9B1D0939610055B947 /* METabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = METabViewController.h; sourceTree = "<group>"; };
+		ED3FFF9C1D0939610055B947 /* METabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = METabViewController.m; sourceTree = "<group>"; };
+		ED3FFF9E1D093A3C0055B947 /* MEListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEListViewController.h; sourceTree = "<group>"; };
+		ED3FFF9F1D093A3C0055B947 /* MEListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEListViewController.m; sourceTree = "<group>"; };
+		ED3FFFA11D093CC60055B947 /* MEListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEListCollectionViewCell.h; sourceTree = "<group>"; };
+		ED3FFFA21D093CC60055B947 /* MEListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEListCollectionViewCell.m; sourceTree = "<group>"; };
+		ED3FFFA61D093DC00055B947 /* MERoundedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERoundedImageView.h; sourceTree = "<group>"; };
+		ED3FFFA71D093DC00055B947 /* MERoundedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERoundedImageView.m; sourceTree = "<group>"; };
+		ED3FFFAA1D093E390055B947 /* MERoundedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERoundedLabel.h; sourceTree = "<group>"; };
+		ED3FFFAB1D093E390055B947 /* MERoundedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERoundedLabel.m; sourceTree = "<group>"; };
+		ED3FFFAD1D0954610055B947 /* Questrial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Questrial-Regular.ttf"; sourceTree = "<group>"; };
+		ED3FFFB51D097A970055B947 /* MEApplicationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEApplicationHelper.h; sourceTree = "<group>"; };
+		ED3FFFB61D097A970055B947 /* MEApplicationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEApplicationHelper.m; sourceTree = "<group>"; };
+		ED3FFFB81D097BFD0055B947 /* Articles+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Articles+CoreDataProperties.h"; sourceTree = "<group>"; };
+		ED3FFFB91D097BFD0055B947 /* Articles+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Articles+CoreDataProperties.m"; sourceTree = "<group>"; };
+		ED3FFFBA1D097BFD0055B947 /* Articles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Articles.h; sourceTree = "<group>"; };
+		ED3FFFBB1D097BFD0055B947 /* Articles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Articles.m; sourceTree = "<group>"; };
+		ED3FFFC01D097E180055B947 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ED60D2FF1D0AA5E100D1E57D /* MEAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEAddViewController.h; sourceTree = "<group>"; };
+		ED60D3001D0AA5E100D1E57D /* MEAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEAddViewController.m; sourceTree = "<group>"; };
+		ED7C89B61D0E8F360067D8FF /* MEMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMenuViewController.h; sourceTree = "<group>"; };
+		ED7C89B71D0E8F360067D8FF /* MEMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMenuViewController.m; sourceTree = "<group>"; };
+		ED7C89BA1D0EEF530067D8FF /* MEAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEAboutViewController.h; sourceTree = "<group>"; };
+		ED7C89BB1D0EEF530067D8FF /* MEAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEAboutViewController.m; sourceTree = "<group>"; };
+		ED7C89BE1D0EF0040067D8FF /* MEFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEFeedbackViewController.h; sourceTree = "<group>"; };
+		ED7C89BF1D0EF0040067D8FF /* MEFeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEFeedbackViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +76,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				885D88E681807EC16C900C84 /* libPods-MAG-E.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE7A4EB9B9ADA2ECA763C46F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3C6C7AB72A3759F5EA68FD3 /* Pods-MAG-E.debug.xcconfig */,
+				1BC170F6A43B4238101EA7A1 /* Pods-MAG-E.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C8D639DE32DBCAC25476BCA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF0FF971E2A7A9C65E9AA571 /* libPods-MAG-E.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ED3FFF751D0938770055B947 = {
 			isa = PBXGroup;
 			children = (
 				ED3FFF801D0938780055B947 /* MAG-E */,
 				ED3FFF7F1D0938780055B947 /* Products */,
+				AE7A4EB9B9ADA2ECA763C46F /* Pods */,
+				C8D639DE32DBCAC25476BCA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +121,20 @@
 		ED3FFF801D0938780055B947 /* MAG-E */ = {
 			isa = PBXGroup;
 			children = (
+				ED60D3441D0AEEF900D1E57D /* Menu */,
+				ED60D2FE1D0AA5C700D1E57D /* Add */,
+				ED3FFFB41D097A700055B947 /* Modal */,
+				ED3FFFB11D097A270055B947 /* TabBarController */,
+				ED3FFFAF1D0955660055B947 /* Font */,
+				ED3FFFA41D093D890055B947 /* Custom UI */,
 				ED3FFF841D0938780055B947 /* AppDelegate.h */,
 				ED3FFF851D0938780055B947 /* AppDelegate.m */,
-				ED3FFF871D0938780055B947 /* ViewController.h */,
-				ED3FFF881D0938780055B947 /* ViewController.m */,
 				ED3FFF8A1D0938780055B947 /* Main.storyboard */,
+				ED3FFFB21D097A3A0055B947 /* List ViewController */,
 				ED3FFF901D0938780055B947 /* Assets.xcassets */,
 				ED3FFF921D0938780055B947 /* LaunchScreen.storyboard */,
 				ED3FFF951D0938780055B947 /* Info.plist */,
+				ED3FFFC01D097E180055B947 /* GoogleService-Info.plist */,
 				ED3FFF8D1D0938780055B947 /* MAG_E.xcdatamodeld */,
 				ED3FFF811D0938780055B947 /* Supporting Files */,
 			);
@@ -82,6 +149,136 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ED3FFFA41D093D890055B947 /* Custom UI */ = {
+			isa = PBXGroup;
+			children = (
+				ED3FFFA91D093E210055B947 /* RoundedLabel */,
+				ED3FFFA51D093D910055B947 /* Rounded ImageView */,
+			);
+			name = "Custom UI";
+			sourceTree = "<group>";
+		};
+		ED3FFFA51D093D910055B947 /* Rounded ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				ED3FFFA61D093DC00055B947 /* MERoundedImageView.h */,
+				ED3FFFA71D093DC00055B947 /* MERoundedImageView.m */,
+			);
+			name = "Rounded ImageView";
+			sourceTree = "<group>";
+		};
+		ED3FFFA91D093E210055B947 /* RoundedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				ED3FFFAA1D093E390055B947 /* MERoundedLabel.h */,
+				ED3FFFAB1D093E390055B947 /* MERoundedLabel.m */,
+			);
+			name = RoundedLabel;
+			sourceTree = "<group>";
+		};
+		ED3FFFAF1D0955660055B947 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				ED3FFFAD1D0954610055B947 /* Questrial-Regular.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		ED3FFFB11D097A270055B947 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				ED3FFF9B1D0939610055B947 /* METabViewController.h */,
+				ED3FFF9C1D0939610055B947 /* METabViewController.m */,
+			);
+			name = TabBarController;
+			sourceTree = "<group>";
+		};
+		ED3FFFB21D097A3A0055B947 /* List ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ED3FFF9E1D093A3C0055B947 /* MEListViewController.h */,
+				ED3FFF9F1D093A3C0055B947 /* MEListViewController.m */,
+				ED3FFFB31D097A520055B947 /* Cell */,
+			);
+			name = "List ViewController";
+			sourceTree = "<group>";
+		};
+		ED3FFFB31D097A520055B947 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				ED3FFFA11D093CC60055B947 /* MEListCollectionViewCell.h */,
+				ED3FFFA21D093CC60055B947 /* MEListCollectionViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		ED3FFFB41D097A700055B947 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				ED3FFFBE1D097C080055B947 /* Helper */,
+				ED3FFFBF1D097C1D0055B947 /* Core Data */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		ED3FFFBE1D097C080055B947 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				ED3FFFB51D097A970055B947 /* MEApplicationHelper.h */,
+				ED3FFFB61D097A970055B947 /* MEApplicationHelper.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		ED3FFFBF1D097C1D0055B947 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				ED3FFFB81D097BFD0055B947 /* Articles+CoreDataProperties.h */,
+				ED3FFFB91D097BFD0055B947 /* Articles+CoreDataProperties.m */,
+				ED3FFFBA1D097BFD0055B947 /* Articles.h */,
+				ED3FFFBB1D097BFD0055B947 /* Articles.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		ED60D2FE1D0AA5C700D1E57D /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				ED60D2FF1D0AA5E100D1E57D /* MEAddViewController.h */,
+				ED60D3001D0AA5E100D1E57D /* MEAddViewController.m */,
+			);
+			name = Add;
+			sourceTree = "<group>";
+		};
+		ED60D3441D0AEEF900D1E57D /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				ED7C89BD1D0EEFF00067D8FF /* Feedback */,
+				ED7C89B91D0EEF330067D8FF /* About */,
+				ED7C89B61D0E8F360067D8FF /* MEMenuViewController.h */,
+				ED7C89B71D0E8F360067D8FF /* MEMenuViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		ED7C89B91D0EEF330067D8FF /* About */ = {
+			isa = PBXGroup;
+			children = (
+				ED7C89BA1D0EEF530067D8FF /* MEAboutViewController.h */,
+				ED7C89BB1D0EEF530067D8FF /* MEAboutViewController.m */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		ED7C89BD1D0EEFF00067D8FF /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				ED7C89BE1D0EF0040067D8FF /* MEFeedbackViewController.h */,
+				ED7C89BF1D0EF0040067D8FF /* MEFeedbackViewController.m */,
+			);
+			name = Feedback;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +286,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED3FFF981D0938780055B947 /* Build configuration list for PBXNativeTarget "MAG-E" */;
 			buildPhases = (
+				AA17C5ECF8B351B37F0170C2 /* [CP] Check Pods Manifest.lock */,
 				ED3FFF7A1D0938770055B947 /* Sources */,
 				ED3FFF7B1D0938770055B947 /* Frameworks */,
 				ED3FFF7C1D0938770055B947 /* Resources */,
+				F660AB3821E22B541281F4E9 /* [CP] Embed Pods Frameworks */,
+				DE88B3427C4D2BEB9B230847 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -108,11 +308,13 @@
 		ED3FFF761D0938770055B947 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ME;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Abbin Varghese";
 				TargetAttributes = {
 					ED3FFF7D1D0938770055B947 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = BZKHJ5BM3B;
 					};
 				};
 			};
@@ -141,21 +343,82 @@
 			files = (
 				ED3FFF941D0938780055B947 /* LaunchScreen.storyboard in Resources */,
 				ED3FFF911D0938780055B947 /* Assets.xcassets in Resources */,
+				ED3FFFC11D097E180055B947 /* GoogleService-Info.plist in Resources */,
+				ED3FFFAE1D0954610055B947 /* Questrial-Regular.ttf in Resources */,
 				ED3FFF8C1D0938780055B947 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AA17C5ECF8B351B37F0170C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE88B3427C4D2BEB9B230847 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MAG-E/Pods-MAG-E-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F660AB3821E22B541281F4E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MAG-E/Pods-MAG-E-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ED3FFF7A1D0938770055B947 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED3FFF891D0938780055B947 /* ViewController.m in Sources */,
+				ED3FFFBD1D097BFD0055B947 /* Articles.m in Sources */,
+				ED3FFFA31D093CC60055B947 /* MEListCollectionViewCell.m in Sources */,
+				ED7C89B81D0E8F360067D8FF /* MEMenuViewController.m in Sources */,
+				ED3FFF9D1D0939610055B947 /* METabViewController.m in Sources */,
+				ED3FFFBC1D097BFD0055B947 /* Articles+CoreDataProperties.m in Sources */,
 				ED3FFF861D0938780055B947 /* AppDelegate.m in Sources */,
+				ED7C89BC1D0EEF530067D8FF /* MEAboutViewController.m in Sources */,
+				ED3FFFA01D093A3C0055B947 /* MEListViewController.m in Sources */,
+				ED60D3011D0AA5E100D1E57D /* MEAddViewController.m in Sources */,
+				ED3FFFA81D093DC00055B947 /* MERoundedImageView.m in Sources */,
 				ED3FFF831D0938780055B947 /* main.m in Sources */,
+				ED3FFFB71D097A970055B947 /* MEApplicationHelper.m in Sources */,
+				ED3FFFAC1D093E390055B947 /* MERoundedLabel.m in Sources */,
 				ED3FFF8F1D0938780055B947 /* MAG_E.xcdatamodeld in Sources */,
+				ED7C89C01D0EF0040067D8FF /* MEFeedbackViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +481,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -256,7 +519,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -265,9 +528,12 @@
 		};
 		ED3FFF991D0938780055B947 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C6C7AB72A3759F5EA68FD3 /* Pods-MAG-E.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "MAG-E/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ThePaadamCompany.MAG-E";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,9 +542,12 @@
 		};
 		ED3FFF9A1D0938780055B947 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BC170F6A43B4238101EA7A1 /* Pods-MAG-E.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "MAG-E/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ThePaadamCompany.MAG-E";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +573,7 @@
 				ED3FFF9A1D0938780055B947 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
