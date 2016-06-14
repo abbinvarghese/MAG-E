@@ -43,7 +43,20 @@
                     <view key="view" contentMode="scaleToFill" id="WGd-VL-CYh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j8x-id-V9B">
+                                <rect key="frame" x="0.0" y="22" width="50" height="50"/>
+                                <state key="normal" image="Back"/>
+                                <connections>
+                                    <action selector="back:" destination="OsT-0d-mP1" eventType="touchUpInside" id="7wk-ud-6b8"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="j8x-id-V9B" firstAttribute="leading" secondItem="WGd-VL-CYh" secondAttribute="leading" id="0v3-0h-aDy"/>
+                            <constraint firstItem="j8x-id-V9B" firstAttribute="top" secondItem="WGd-VL-CYh" secondAttribute="top" constant="22" id="sMN-ec-jDG"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
@@ -76,12 +89,22 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.83850961538461544" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tM9-Bq-bJ4">
+                                <rect key="frame" x="0.0" y="22" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" image="Back"/>
+                                <connections>
+                                    <action selector="back:" destination="4ar-9c-sXp" eventType="touchUpInside" id="hgh-g2-5EF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="xHF-sf-SEN" firstAttribute="height" secondItem="U89-Qo-nL9" secondAttribute="height" multiplier="0.2" id="0oO-Q0-izH"/>
+                            <constraint firstItem="tM9-Bq-bJ4" firstAttribute="top" secondItem="U89-Qo-nL9" secondAttribute="top" constant="22" id="5Ih-FN-DHl"/>
                             <constraint firstItem="xHF-sf-SEN" firstAttribute="centerX" secondItem="U89-Qo-nL9" secondAttribute="centerX" id="Mes-py-BI0"/>
                             <constraint firstItem="9Ce-oV-AAJ" firstAttribute="centerX" secondItem="xHF-sf-SEN" secondAttribute="centerX" id="YyH-d5-Dv8"/>
+                            <constraint firstItem="tM9-Bq-bJ4" firstAttribute="leading" secondItem="U89-Qo-nL9" secondAttribute="leading" id="aFg-XE-4g5"/>
                             <constraint firstItem="xHF-sf-SEN" firstAttribute="top" secondItem="tZD-cz-sAo" secondAttribute="bottom" constant="20" id="bI6-jm-6O1"/>
                             <constraint firstItem="9Ce-oV-AAJ" firstAttribute="top" secondItem="xHF-sf-SEN" secondAttribute="bottom" id="ruh-1d-hMC"/>
                         </constraints>
@@ -111,7 +134,7 @@
                                 <rect key="frame" x="0.0" y="22" width="375" height="601"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <view key="tableHeaderView" contentMode="scaleToFill" id="vhg-wb-8Wm">
-                                    <rect key="frame" x="0.0" y="64" width="375" height="150"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
                                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Abbin Varghese" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1uu-JV-CN7">
@@ -119,9 +142,9 @@
                                             <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                             <textInputTraits key="textInputTraits"/>
                                         </textField>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="k5E-zZ-XWj">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Profile Placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="k5E-zZ-XWj">
                                             <rect key="frame" x="150" y="8" width="75" height="75"/>
-                                            <color key="backgroundColor" red="0.91372549020000005" green="0.1176470588" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.10362980769230769" colorSpace="calibratedWhite"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="k5E-zZ-XWj" secondAttribute="height" multiplier="1:1" id="9yv-SH-ULR"/>
                                             </constraints>
@@ -140,7 +163,7 @@
                                 </view>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MEMenuViewControllerCell" textLabel="xBX-7L-Hyl" style="IBUITableViewCellStyleDefault" id="B9C-8i-i7C">
-                                        <rect key="frame" x="0.0" y="264" width="375" height="55"/>
+                                        <rect key="frame" x="0.0" y="200" width="375" height="55"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="B9C-8i-i7C" id="x3w-P1-bCy">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="54"/>
@@ -623,7 +646,7 @@
         <!--Navigation Controller-->
         <scene sceneID="bkO-26-ZDZ">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sLR-C4-Rg6" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="sLR-C4-Rg6" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" id="ofW-eO-5fQ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="6tf-RJ-XqB">
@@ -649,6 +672,7 @@
         <image name="Home Selected" width="50" height="50"/>
         <image name="Icon" width="133" height="133"/>
         <image name="Menu" width="50" height="50"/>
+        <image name="Profile Placeholder" width="87" height="87"/>
         <image name="Refresh" width="50" height="50"/>
         <image name="Share" width="50" height="50"/>
     </resources>
